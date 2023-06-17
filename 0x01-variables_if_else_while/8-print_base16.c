@@ -11,8 +11,9 @@ int main(void)
 {
 	int nums = 0;
 	char chars;
+
 	while (nums < 10)
-	{	
+	{
 		putchar(48 + nums);
 		++nums;
 	}
