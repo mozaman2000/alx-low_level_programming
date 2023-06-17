@@ -14,7 +14,17 @@
  */
 int main(void)
 {
-	long char *alpha = 'abcdefghijklmnopqrstuvwxyz';
+	char alpha[] = 'abcdefghijklmnopqrstuvwxyz';
 /* your code goes there */
-	putchar("%s/n", alpha);
+	for (int count = 0;count<80;count++)
+	{
+		if (message[count] == '\0')
+		{
+			putchar('\n');
+			break;
+		}
+		else
+			putchar(message[count]);
+	}
 return (0);
+}
