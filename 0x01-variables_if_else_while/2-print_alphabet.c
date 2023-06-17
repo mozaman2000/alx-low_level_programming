@@ -14,15 +14,14 @@
  */
 int main(void)
 {
-	char alpha[26] = 'abcdefghijklmnopqrstuvwxyz';
-	int i;
+	char alpha;
 
 /* your code goes there */
 	
-	for (i = 0; i < 26; i++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		putchar(message[count]);
+		putchar('\n');
 	}
-	putchar('\n');
 return (0);
 }
