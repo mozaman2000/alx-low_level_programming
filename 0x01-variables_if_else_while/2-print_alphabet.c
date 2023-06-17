@@ -17,11 +17,9 @@ int main(void)
 	char alpha;
 
 /* your code goes there */
-	
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		putchar(alpha);
-		putchar('\n');
+		putcar(alpha)
 	}
 return (0);
 }
