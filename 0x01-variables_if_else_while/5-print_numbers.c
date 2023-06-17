@@ -16,7 +16,7 @@ int main(void)
 		printf("%i", nums);
 		++nums;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
 
