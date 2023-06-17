@@ -13,7 +13,7 @@ int main(void)
 
 	int comb;
 
-	for (comb = '0'; comb <= '9'; d++)
+	for (comb = '0'; comb <= '9'; comb++)
 	{
 	putchar(comb);
 	if (comb != '9')
