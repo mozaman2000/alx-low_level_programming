@@ -20,7 +20,7 @@ int main(void)
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (alpha == 'q' || alpha == 'e')
-		alpha = ++alpha;
+		++alpha;
 		putchar(alpha);
 	}
 		putchar('\n');
