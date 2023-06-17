@@ -10,7 +10,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if(n=0){printf("%iis zero",n);}
+	if(n==0){printf("%iis zero",n);}
 	if(n<0){printf("%iis negative",n)}
 	if(n>0){printf("%iis positive",n}
 	return (0);
