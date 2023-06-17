@@ -16,5 +16,5 @@ int main(void)
 {
 	char *alpha = 'abcdefghijklmnopqrstuvwxyz';
 /* your code goes there */
-	putchar(alpha);
+	putchar("%s/n", alpha);
 return (0);
