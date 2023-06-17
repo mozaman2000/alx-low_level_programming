@@ -14,17 +14,15 @@
  */
 int main(void)
 {
-	char alpha[] = 'abcdefghijklmnopqrstuvwxyz';
+	char alpha[26] = 'abcdefghijklmnopqrstuvwxyz';
+	int i;
+
 /* your code goes there */
-	for (int count = 0;count<80;count++)
+	
+	for (i = 0; i < 26; i++)
 	{
-		if (message[count] == '\0')
-		{
-			putchar('\n');
-			break;
-		}
-		else
-			putchar(message[count]);
+		putchar(message[count]);
 	}
+	putchar('\n');
 return (0);
 }
