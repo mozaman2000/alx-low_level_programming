@@ -20,7 +20,7 @@ int main(void)
 	
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		putchar(message[count]);
+		putchar(alpha);
 		putchar('\n');
 	}
 return (0);
