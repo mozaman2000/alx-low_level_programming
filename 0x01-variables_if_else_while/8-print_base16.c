@@ -13,7 +13,7 @@ int main(void)
 
 	while (nums < 55)
 	{
-		if (nums + 48 == 58)
+		if (nums == 10)
 		{
 			nums == 49;
 		}
