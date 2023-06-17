@@ -14,7 +14,7 @@
  */
 int main(void)
 {
-	char *alpha = 'abcdefghijklmnopqrstuvwxyz';
+	long char *alpha = 'abcdefghijklmnopqrstuvwxyz';
 /* your code goes there */
 	putchar("%s/n", alpha);
 return (0);
