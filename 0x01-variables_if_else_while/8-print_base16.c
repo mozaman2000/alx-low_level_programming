@@ -13,9 +13,12 @@ int main(void)
 
 	while (nums < 55)
 	{
-		if (nums + 48 == 58) nums == 49;
+		if (nums + 48 == 58)
+		{
+			nums == 49;
+		}
 		putchar(48 + nums);
-	
+		
 		++nums;
 	}
 	putchar('\n');
