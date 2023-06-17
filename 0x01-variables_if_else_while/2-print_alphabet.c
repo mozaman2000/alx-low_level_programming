@@ -14,7 +14,7 @@
  */
 int main(void)
 {
-	char alpha = 'abcdefghijklmnopqrstuvwxyz';
+	char *alpha = 'abcdefghijklmnopqrstuvwxyz';
 /* your code goes there */
 	putchar(alpha);
 return (0);
