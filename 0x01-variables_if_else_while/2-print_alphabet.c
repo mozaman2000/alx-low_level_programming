@@ -19,7 +19,7 @@ int main(void)
 /* your code goes there */
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		putchar(alpha)
+		putchar(alpha);
 	}
 return (0);
 }
