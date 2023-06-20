@@ -9,5 +9,7 @@
  */
 int _putchar(char c)
 {
+	c = "_putchar";
+
 	return (write(1, "_putchar", 1));
 }
