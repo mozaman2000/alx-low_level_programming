@@ -13,6 +13,7 @@
 
 void reset_to_98(int *n)
 {
+	/* *n - a pointer witha num inside */
 	*n = 98;
 
 }
