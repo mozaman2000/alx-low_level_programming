@@ -13,10 +13,10 @@
 
 void swap_int(int *a, int *b)
 {
-	int *a_alt = *a;
-	int *b_alt = *b;
+	int a_alt = *a;
+	int b_alt = *b;
 
-	*b = *a_alt;
-	*a = *b_alt;
+	*b = a_alt;
+	*a = b_alt;
 
 }
