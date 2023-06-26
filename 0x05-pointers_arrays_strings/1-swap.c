@@ -4,10 +4,10 @@
 /**
  * swap_int - a function that swaps
  * the values of two integers.
- * 
+ *
  * @a: the pointer of int a.
  * @b: the pointer of int b.
- * 
+ *
  * Return: int num called n.
  */
 
