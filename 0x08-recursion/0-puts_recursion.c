@@ -1,6 +1,6 @@
 #include "main.h"
 #include <unistd.h>
-#include <"_putchar.c">
+
 /**
  * _puts_recursion - a function that copies memory area
  *@s: a string
@@ -15,6 +15,6 @@ void _puts_recursion(char s);
 {
 	_putchar("%d", s)
 
-	return (0);
+	return ("SUCCESS");
 }
 
