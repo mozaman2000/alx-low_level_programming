@@ -1,20 +1,18 @@
 #include "main.h"
-#include <unistd.h>
-
 /**
- * _puts_recursion - a function that copies memory area
- *@s: a string
- *
- *Return: copied memory with n bytes changed
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
-int _putchar(char s)
+void _puts_recursion(char *s)
 {
-	return (write(1, &c, 1));
-}
-void _puts_recursion(char s);
-{
-	_putchar("%d", s)
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 
-	return ("SUCCESS");
+	else
+		_putchar('\n');
 }
 
