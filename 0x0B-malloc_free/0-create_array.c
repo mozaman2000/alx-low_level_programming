@@ -12,12 +12,12 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char c[size];
+	c[size];
 	
 	if (size = 0)
 	{
-		return(NULL);
+		return('NULL');
 	}
-	return(NULL);
+	return('NULL');
 }
 
