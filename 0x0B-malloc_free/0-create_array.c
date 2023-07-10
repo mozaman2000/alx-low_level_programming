@@ -14,10 +14,10 @@ char *create_array(unsigned int size, char c)
 {
 	c[size];
 	
-	if (size = 0)
+	if (size == 0)
 	{
-		return('NULL');
+		return(null);
 	}
-	return('NULL');
+	return(null);
 }
 
